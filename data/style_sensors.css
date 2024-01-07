@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(45deg, #0a0a0a, #3F5EFB);
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Supprime la marge par défaut du corps */
+}
+
+.page {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 3rem;
+    width: 400px; /* Définir une largeur fixe pour le formulaire */
+}
+
+p {
+    color: white;
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 1.4rem;
+    margin-bottom: 20px; /* Réduire l'espace sous le paragraphe */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+div {
+    background: transparent;
+    border: none;
+    padding: 1rem;
+    border-radius: 50px;
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    margin-bottom: 1em;
+}
+
+
+
+div.potValue {
+    background: #162b58;
+    width: 350px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+div.photValue {
+    background: #162b58;
+    width: 350px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
